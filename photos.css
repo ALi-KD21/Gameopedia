@@ -1,0 +1,256 @@
+
+.gameMain{
+    display: flex;
+    margin: 150px 0px;
+}
+.game{
+    width: 300px;
+    height: 150px;
+    margin-left: 80px;
+}
+.gamePics{
+    margin-left: 150px;
+    width: 100px;
+    height: 300px;
+}
+.gamePics img{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+.gameTitle{
+    font-size: 25px;
+    margin-right: 50px;
+}
+.video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.container{
+    margin-top: -550px;
+}
+@media only screen and (min-width: 768px){
+    nav ul li {
+        margin-left: 30px;
+    }
+    nav {
+        width: 100%;
+        position: absolute;
+        top: -7%;
+        left: 0%;
+        padding: 20px 4%;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+    }
+    nav .logo {
+        margin-top: 2%;
+    }
+    nav h1{
+        margin-top: 0%;
+        margin-left: -12%;
+    }
+    .maintitle{
+        margin-top: -36%;
+        font-size: 400%;
+    }
+    .gamePics{
+        margin-top: 3%;
+        width: 100%;
+        overflow: hidden;
+        margin-left: -70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        overflow-x: auto;
+        padding: 10px; /* Add some padding to separate images */
+        box-sizing: border-box;
+        white-space: nowrap;
+    }
+    .gameTitle{
+        font-size: 40px;
+        width: 120%;
+        margin-left: 3%;
+        color: rgb(247, 0, 255);
+    }
+    .gameMain{
+        display: flex;
+        margin: 150px 0px;
+        background-color: blueviolet;
+        padding: 2%;
+        margin-bottom: -8%;
+        box-sizing: border-box;
+        border: 3px solid rgb(204, 8, 211);
+        border-radius: 30px;
+    }
+    .game{
+        width: 400px;
+        height: 300px;
+        margin-left: 30px;
+        margin-top: 1.5%;
+    }
+    .gameLink{
+        margin-top: 25%;
+        margin-left: -34%;
+        color: rgb(247, 0, 255);
+        width: 79%;
+        text-decoration: none;
+    }
+    .footer{
+        background-color: rgb(247, 0, 255);
+        margin-top: 30%;
+        padding-top: 0%;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    nav ul li {
+        margin-left: 8px;
+    }
+    nav {
+        width: 100%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        padding: 15px 4%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav h1{
+        margin-top: 0%;
+        margin-left: -12%;
+    }
+    .gameLink{
+        color: rgb(247, 0, 255);
+        text-align: center;
+    }
+    .gamePics{
+        margin-top: 32%;
+        width: 150%;
+        overflow: hidden;
+        margin-left: -87%;
+        overflow-x: scroll;
+        float: left;
+    }
+    .gameTitle{
+        font-size: 25px;
+        width: 120%;
+        margin-left: -58%;
+        font-size: 40px;
+        margin-top: 31%;
+        margin-bottom: -5%;
+        text-align: center;
+        color: rgb(247, 0, 255);
+    }
+    .gameMain{
+        background-color: blueviolet;
+        padding-top: 3%;
+        margin-top: 10%;
+        padding-left: 0%;
+        margin-right: 3%;
+        margin-left: 3%;
+        box-sizing: border-box;
+        border: 3px solid rgb(204, 8, 211);
+        border-radius: 30px;
+    }
+    .game{
+        width: 300px;
+        height: 200px;
+        margin-left: 27%;
+    }
+    .footer{
+        background-color: rgb(247, 0, 255);
+        margin-top: 30%;
+        padding-top: 0%;
+        color: white;
+        margin-left: -20%;
+        text-align: center;
+
+    }
+    video {
+        position: absolute;
+        right: 50%;
+        bottom: 0;
+        transform: translateX(18%);
+        z-index: -1;
+    }
+}
+@media only screen and (max-width: 600px){
+    nav ul{
+        margin-top: 30%;
+        margin-left: -120%;
+        margin-right: 4%;
+    }
+    nav {
+        width: 100%;
+        position: absolute;
+        top: -10%;
+        left: -7%;
+        padding: 20px 4%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav h1{
+        margin-top: 1%;
+        margin-left: -60%;
+    }
+    .gamePics{
+        margin-top: 50%;
+        width: 410px;
+        overflow: hidden;
+        margin-left: -99.5%;
+        overflow-x: scroll;
+    }
+    .gameTitle{
+        font-size: 25px;
+        width: 120%;
+        margin-left: -83%;
+        font-size: 40px;
+        margin-top: 48%;
+        margin-bottom: -5%;
+        text-align: center;
+        color: rgb(247, 0, 255);
+    }
+    .gameMain{
+        background-color: blueviolet;
+        padding-top: 3%;
+        margin-top: 10%;
+        padding-left: 0%;
+        margin-right: 3%;
+        margin-left: 3%;
+        box-sizing: border-box;
+        border: 3px solid rgb(204, 8, 211);
+        border-radius: 30px;
+    }
+    .game{
+        width: 300px;
+        height: 200px;
+        margin-left: 15%;
+    }
+    .gameLink{
+        margin-top: 113%;
+        margin-left: -30%;
+        color: rgb(247, 0, 255);
+        width: 50%;
+        text-decoration: none;
+    }
+    .footer{
+        background-color: rgb(247, 0, 255);
+        margin-top: 30%;
+        padding-top: 0%;
+        color: white;
+        margin-left: -15%;
+        text-align: center;
+    }
+    video {
+        position: absolute;
+        right: 50%;
+        bottom: 0;
+        transform: translateX(28%);
+        z-index: -1;
+    }
+}
