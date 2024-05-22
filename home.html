@@ -5,41 +5,6 @@
 <html lang="en">
 <head>
 </head>
-<body>
-
-    <script>
-      function getParameterByName(name, url) {
-          if (!url) url = window.location.href;
-          name = name.replace(/[\[\]]/g, "\\$&");
-          var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-              results = regex.exec(url);
-          if (!results) return null;
-          if (!results[2]) return '';
-          return decodeURIComponent(results[2].replace(/\+/g, " "));
-      }
-
-      var gameName = getParameterByName('game');
-
-      if (gameName !== null && gameName !== '') {
-          var centerDiv = document.createElement('div');
-          centerDiv.style.position = 'absolute';
-          centerDiv.style.top = '65%';
-          centerDiv.style.left = '50%';
-          centerDiv.style.transform = 'translate(-50%, -50%)';
-          centerDiv.style.textAlign = 'center';
-
-          var thankYouMessage = document.createElement('p');
-          thankYouMessage.textContent = "Thank you for Rating " + gameName;
-          thankYouMessage.style.color = 'pink';
-          thankYouMessage.style.fontSize = '24px';
-          thankYouMessage.style.fontWeight = 'bold';
-
-          centerDiv.appendChild(thankYouMessage);
-
-          document.body.appendChild(centerDiv);
-      }
-  </script>
-</body>
 </html>
 
     <meta charset="UTF-8">
@@ -62,7 +27,7 @@
                 <li><a href="game.html">Games</a></li>
                 <li><a href="photos.html">Photos</a></li>
                 <li><a href="top.html">Top People</a></li>
-                <li><a href="contact.php">Rate</a></li>
+                <li><a href="contact.html">Rate</a></li>
             </ul>
         </nav>
         <div class="content">
